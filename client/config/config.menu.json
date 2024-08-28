@@ -1,0 +1,17 @@
+{
+  "app": {
+    "options": {},
+    "menu": {
+      "data": [
+        {
+          "id": "HOME",
+          "label": "HOME",
+          "data": {
+            "path": "home"
+          }
+        }
+        
+      ]
+    }
+  }
+}

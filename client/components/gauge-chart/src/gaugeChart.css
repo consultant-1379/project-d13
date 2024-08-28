@@ -1,0 +1,68 @@
+
+:host{
+  display: block;
+}
+
+.eds-chart { 
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.foregroundArc {
+  fill: var(--gauge-foreground, #c8c8c8);
+}
+
+.valueArc {
+  fill: var(--text, #242424);
+}
+.negativeArc {
+  fill: var(--gauge-background, #fafafa);
+}
+
+.units {
+    font-size: 28px;
+    fill: var(--text, #242424);
+    text-anchor: middle;
+    opacity: .6;
+}
+
+.label.left {
+  text-anchor: start;
+}
+
+.label.right {
+  text-anchor: end;
+}
+
+.total {
+  font-size: 60px;
+  fill: var(--text, #242424);
+  text-anchor: middle;
+}
+
+.label {
+  font-size: 24px;
+  fill: var(--text, #242424);
+  opacity: .3;
+}
+
+.transparent {
+  fill: transparent !important;
+}
+
+.unknown {
+  fill: var(--gray) !important;
+}
+
+.tooltip.hidden {
+  display: none;
+}
+
+.tooltip {
+  font-family: 'Ericsson Hilda',Helvetica,Arial,sans-serif;
+  color: var(--tooltip-text);
+  background: var(--tooltip-background);
+  border-radius: var(--space-small, 4px);
+  position: fixed;
+  padding: .5em 1em;
+}

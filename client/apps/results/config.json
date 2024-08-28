@@ -1,0 +1,22 @@
+{
+  "script":"results/Results",
+  "title":"RESULTS",
+  "route":"results",
+  "localePath": "locale/",
+  "menu": {
+    "id": "RESULTS",
+    "data": {
+      "path": "results"
+    }
+  },
+  "dependencies": {
+    "@eui/component": "0.10.x",
+    "@eui/lit-component": "0.12.x",
+    "@eui/app": "0.12.x",
+    "@eui/layout": "0.10.2",
+    "@eui/table": "0.13.3"
+  },
+  "components": {
+    "gauge-chart": "0.0.0"
+  }
+}

@@ -1,0 +1,31 @@
+:host{
+  display: block;
+}
+
+.layout__dashboard {
+  display: grid;
+  grid-template-columns: 1fr ; /* three column layout*/
+  row-gap: var(--space-small);
+  column-gap: var(--space-small);
+  background-color: var(--layer1);
+  padding-bottom: var(--space-small);
+}
+
+#submitButton{
+  width: 600px;
+  margin: auto;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.layout__dashboard{
+  width: 1200px;
+  margin: auto;
+  font-size: large;
+  border-radius: 20px;
+  text-align: left;
+  border:black 5px solid;
+  padding: 5px;
+  background-color: black; 
+  --checkbox-border-radius: 5px;
+}

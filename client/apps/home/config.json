@@ -1,0 +1,20 @@
+{
+  "script":"home/Home",
+  "title":"HOME",
+  "route":"home",
+  "localePath": "locale/",
+  "menu": {
+    "id": "HOME",
+    "data": {
+      "path": "home"
+    }
+  },
+  "dependencies": {
+    "@eui/component":"0.10.x",
+    "@eui/lit-component":"0.12.x",
+    "@eui/app":"0.12.x",
+    "@eui/layout": "0.10.2",
+    "@eui/table": "0.13.3"
+  },
+  "components": {}
+}

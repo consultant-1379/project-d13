@@ -1,0 +1,20 @@
+{
+  "script":"cloud-maturity-assesment/CloudMaturityAssesment",
+  "title":"CLOUD_MATURITY_ASSESMENT",
+  "route":"cloud-maturity-assesment",
+  "localePath": "locale/",
+  "menu": {
+    "id": "CLOUD_MATURITY_ASSESMENT",
+    "data": {
+      "path": "cloud-maturity-assesment"
+    }
+  },
+  "dependencies": {
+    "@eui/component":"0.10.x",
+    "@eui/lit-component":"0.12.x",
+    "@eui/app":"0.12.x",
+    "@eui/layout": "0.10.2",
+    "@eui/table": "0.13.3"
+  },
+  "components": {}
+}
